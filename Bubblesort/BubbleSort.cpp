@@ -19,6 +19,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 int main() {
+    //a random int will be set as the length of the array 
    srand((int)time(0));
     int length =1+rand()%100;
      int* arr = new int[length];
