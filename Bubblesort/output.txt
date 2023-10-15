@@ -1,0 +1,23 @@
+Input a int num 2 
+This is the 1 time test
+ 
+The length of the array is 3
+ 
+Unsorted Array: 78 68 26 
+ 
+Sorted Array: 26 68 78 
+ 
+ The expected array element: 26 68 78  
+The test is passed
+ 
+This is the 2 time test
+ 
+The length of the array is 3
+ 
+Unsorted Array: 100 8 54 
+ 
+Sorted Array: 8 54 100 
+ 
+ The expected array element: 100 54 8  
+The test is failed
+ 
