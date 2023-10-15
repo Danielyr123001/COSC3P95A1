@@ -27,11 +27,11 @@ int main() {
  
     std::cout << "Input a int num ";
     std::cin >> num_iterations;
-    std::cout<<" "<< std::endl;
+    std::cout <<  std::endl;
 
      outputFile << "Input a int num ";
     outputFile << num_iterations;
-    outputFile<<" "<< std::endl;
+    outputFile << std::endl;
 
     for(int i = 0; i < num_iterations; i++){
     //a random int will be set as the length of the array 
@@ -51,7 +51,7 @@ int main() {
     std::cout << "This is the ";
      std::cout << i+1;
       std::cout<< " time test" <<std::endl;
-       std::cout<<" "<< std::endl;
+       std::cout << std::endl;
 
         outputFile<< "This is the ";
      outputFile << i+1;
@@ -60,11 +60,11 @@ int main() {
       
      std::cout << "The length of the array is ";
      std::cout << length <<std::endl;
-    std::cout<<" "<< std::endl;
+    std::cout << std::endl;
 
      outputFile << "The length of the array is ";
      outputFile<< length <<std::endl;
-     outputFile<<" "<< std::endl;
+     outputFile << std::endl;
     
     std::cout << "Unsorted Array: ";
      outputFile << "Unsorted Array: ";
@@ -76,8 +76,8 @@ int main() {
     std::cout << std::endl;
   std::cout<<" "<< std::endl;
 
-  outputFile << std::endl;
-   outputFile<<" "<< std::endl;
+   outputFile << std::endl;
+   outputFile << std::endl;
 
     bubbleSort(outputarr, length);
 
@@ -88,21 +88,23 @@ int main() {
          outputFile << outputarr[i] << " ";
     }
     std::cout << std::endl;
-   std::cout<<" "<< std::endl;
+    std::cout << std::endl;
 
    outputFile << std::endl;
-   outputFile<<" "<< std::endl;
+   outputFile<< std::endl;
 
 
-     outputFile << " The expected array element: ";
+     outputFile << "The expected array element: ";
     for (int i = 0; i < length; i++) {
         std::cout << "Input the expected array element: ";
        std::cin >> expectedarr[i];
 
    outputFile << expectedarr[i] << " ";
         }
-  outputFile<<" "<< std::endl;
-  
+  outputFile<< std::endl;
+ outputFile<< std::endl;
+
+
     //  for (int i = 0; i < length; i++) {
     //     if(outputarr[i]!= expectedarr[i]){
     //          std::cout << "The test is failed" << std::endl;
@@ -126,16 +128,16 @@ int main() {
    
     if(arraysEqual){
          std::cout << "The test is passed" << std::endl;
-              std::cout<<" "<< std::endl;
+              std::cout << std::endl;
 
               outputFile << "The test is passed" << std::endl;
-              outputFile<<" "<< std::endl;
+              outputFile << std::endl;
     }else{
         std::cout << "The test is failed" << std::endl;
-             std::cout<<" "<< std::endl;
+             std::cout << std::endl;
 
               outputFile << "The test is failed" << std::endl;
-             outputFile<<" "<< std::endl;
+             outputFile << std::endl;
     }
    
   }
