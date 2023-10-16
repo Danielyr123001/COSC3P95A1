@@ -1,13 +1,13 @@
-Input a int num 2
+Enter an int to indicate how many tests to run 2
 This is the 1 time test
  
 The length of the array is 3
 
-Unsorted Array: 85 30 100 
+Unsorted Array: 40 95 77 
 
-Sorted Array: 30 85 100 
+Sorted Array: 40 77 95 
 
-The expected array element: 30 85 100 
+The expected array element: 40 77 95 
 
 The test is passed
 
@@ -15,11 +15,11 @@ This is the 2 time test
  
 The length of the array is 3
 
-Unsorted Array: 31 72 27 
+Unsorted Array: 31 84 11 
 
-Sorted Array: 27 31 72 
+Sorted Array: 11 31 84 
 
-The expected array element: 72 31 27 
+The expected array element: 31 11 84 
 
 The test is failed
 
