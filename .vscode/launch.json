@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/dandog/Desktop/COSC3P95A1Q2/COSC3P95A1Q2/Bubblesort",
-      "program": "c:/Users/dandog/Desktop/COSC3P95A1Q2/COSC3P95A1Q2/Bubblesort/build/Debug/outDebug",
+      "cwd": "c:/Users/dandog/Desktop/COSC3P95A1/COSC3P95A1/COSC3P95A1Q5",
+      "program": "c:/Users/dandog/Desktop/COSC3P95A1/COSC3P95A1/COSC3P95A1Q5/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
